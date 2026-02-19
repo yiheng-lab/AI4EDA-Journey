@@ -62,5 +62,4 @@
 3. **信息如何聚合？**
 	- 公式里通常是把邻居的信息加起来或者取平均。
 	- 如果预测拥塞：三个邻居的拥塞度分别是 10%, 15%, 95%。如果用平均，算出来是 40%，于是认为安全，就会导致芯片流片失败，因为 95% 那个地方必定短路或布不通，这里必须用 Max 池化。但如果你在计算功耗或面积，用 Max 就全错了，必须用 Sum
-	- 这涉及到[Physics-Informed Machine Learning](Physics-Informed%20Machine%20Learning.md)：（物理启发的机器学习）
-	- 
+	- 关于聚合器：[Aggregators of GCN](Aggregators%20of%20GCN.md)
