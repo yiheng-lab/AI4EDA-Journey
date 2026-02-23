@@ -1,0 +1,17 @@
+- [RL for Chip Placement(Google)](RL%20for%20Chip%20Placement(Google).md)
+	- (Nature 2021)**Chip Placement with Deep Reinforcement Learning**
+	- Nature封面文章，被谷歌用于TPU生产，将芯片宏单元布局建模为强化学习任务，证明了AI生成的布局在PPA上能超越人类专家
+- [DreamPlace](DreamPlace.md)
+	- (ICCAD 2019)**DreamPlace: Deep Learning Toolkit-Encouraged Placment**
+	- 将布局的解析解优化问题，等效映射为深度学习的“算子优化”过程
+	- 代码：[limbo018/DREAMPlace: Deep learning toolkit-enabled VLSI placement](https://github.com/limbo018/DREAMPlace)
+- [CongestionNet](CongestionNet.md)
+	- (TSE 2019)**CongestionNet: Routing Congestion Prediction Using Deep GNNs**
+	- 系统性使用GNN提取电路拓扑特征来预判布线阶段哪里会堵塞，抛弃了把电路当成图片的CNN做法，专注于电路的图属性
+- [Lay-Net](Lay-Net.md)
+	- (ICCAD 2023)**Lay-Net: Grafting Netlist Knowledge on Layout-Based Congestion**
+	- 多模态融合，结合了 Layout（图像特征） 和 Netlist（拓扑特征） 来预测拥塞
+- [Versatile Multi-stage GNN](Versatile%20Multi-stage%20GNN.md)
+	- (DAC 2022)**Versatile Multi-stage GNN for Circuit Representation**
+	- 针对电路设计的不同阶段（逻辑综合、物理设计），提出了一种通用的、多阶段的 GNN 表征框架。解决了不同 EDA 任务之间模型不通用的痛点，尝试建立一个“电路大模型”的前身。
+
